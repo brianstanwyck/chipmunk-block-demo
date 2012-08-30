@@ -102,10 +102,6 @@ class Window < Gosu::Window
 
     @space = CP::Space.new
 
-    #@space.add_collision_func :ball, :ball do |a, b|
-    #a.body.apply_force CP::Vec2.new(10, 0), Vectors::ORIGIN
-    #end
-
     [
       [[0, 0], [0, 600]],
       [[0, 0], [800, 0]],
